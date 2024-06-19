@@ -1,0 +1,60 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #342314;
+}
+
+.background-container {
+  width: 94vw;
+  height: 88vh;
+  background-image: url('C:/Users/DELL/Desktop/Cookie site/Html/7f0a02fba635512f8fee1e87e41ca365.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: flex-start; /* Align items at the top */
+  align-items: center; /* Center horizontally */
+  
+}
+
+.background-container .heading {
+  color: #c5bebe;
+  font-size: 60px;
+  background-color: rgba(42, 28, 15, 0.82);
+  padding: 10px; /* Adjust padding as needed */
+  padding-left: 361px;
+  padding-right: 361px;
+  text-align: center;
+  font-family: "Playwrite SK", cursive;
+  font-weight: 350;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: normal;
+  text-shadow: 1px 1px 2px #f1eeee;
+  margin-bottom: 20px; /* Adjust margin to move the heading up */
+  border-radius: 10px;
+  border-width: 730px;
+}
+
+
+.background-container .searchbar {
+  font-size: 18px;
+  color: rgb(44, 25, 2);
+  -webkit-text-fill-color: #ededec;
+  padding: 15px 75px; /* Adjust padding as needed */
+  width: 310px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(125, 102, 72, 0.88); /* Adjust background color opacity */
+  border-radius: 10px;
+  margin-top: 20px; /* Adjust margin to separate from heading */
+  border-color: antiquewhite;
+  outline: none; /* Remove outline */
+}
